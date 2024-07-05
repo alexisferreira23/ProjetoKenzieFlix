@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+.header-logo {
+    margin-bottom: 30px;
+}
+
+.firs-title, .button-gerenciar {
+    color: white;
+}
+
+.firs-title {
+    margin-bottom: 70px;
+ }
+
+ .lista {
+     display:flex;
+     margin: 10px auto;
+     width: 1000px;
+     padding: 50px;
+}
+
+div .lista-cads {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+        
+}
+    
+ .card-user, .card-new-user {
+    
+    color: grey;
+   
+    width: 20%;
+    
+}
+.button-gerenciar {
+    background-color: black;
+    border: 1px solid white;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.button-gerenciar:hover {
+    background-color: white;
+    color: black;
+}
+
+.gerenciar-perfil {
+    text-align: center;
+    padding: 20px;
+}
+
+li img {
+     border-radius: 9px;
+     width: 100%;
+    
+}
+
+li:hover img {    
+    color: white;
+    border: solid 2px white;
+}
+
+li:hover p {    
+    color: white;
+    border: none 2px white;
+}
